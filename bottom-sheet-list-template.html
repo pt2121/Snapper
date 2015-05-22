@@ -1,0 +1,14 @@
+<md-bottom-sheet class="md-list">
+  <md-list ng-hide="isNoDevice()">
+    <md-list-item ng-repeat="item in items">
+      <md-button class="md-list-item-content" ng-click="listItemClick($index)" style="width: 150px;">
+        <span class="md-inline-list-icon-label">{{ item.id }}</span>
+      </md-button>
+    </md-list-item>
+  </md-list>
+  <div ng-show="isNoDevice()">
+    <md-button class="md-warn" ng-click="hide()" style="width: 150px;">
+      No device!
+    </md-button>
+  <div>
+</md-bottom-sheet>

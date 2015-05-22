@@ -1,0 +1,17 @@
+.mainContent {
+  height: 200px;
+}
+
+.rowSmall {
+  height: 50px;
+}
+
+.rowTiny {
+  height: 42px;
+}
+
+.switchdSmall {
+  margin:0px 0px 0px 0px;
+  height: 35px;
+  width: 40px;
+}
