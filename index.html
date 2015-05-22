@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snapper</title>
+  <link rel="stylesheet" href="./node_modules/angular-material/angular-material.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <md-content class='md-padding mainContent' ng-controller="AppCtrl">
+    <div layout="row" layout-align="end" class='rowSmall'>
+      <md-switch class='switchdSmall' ng-model="switch.case" aria-label="Switch" ng-true-value="'vid'" ng-false-value="'pic'">
+      </md-switch>
+    </div>
+    <div layout="row" layout-align="center center">
+      <div ng-show="isVid()">
+        <md-button class="md-fab md-accent" ng-click="toggleRecording()">
+        </md-button>
+      </div>
+      <div ng-hide="isVid()">
+        <md-button class="md-fab md-primary" ng-click="screenCapture()">
+        </md-button>
+      </div>
+    </div>
+    <div layout="row" layout-align="center center" class='rowTiny'>
+      <md-button class="md-primary" ng-click="showListBottomSheet($event)">
+        <md-button class="md-icon-button md-primary" aria-label="Devices">
+          <md-icon md-svg-icon="img/ic_expand_more_48px.svg"></md-icon>
+        </md-button>
+      </md-button>
+    </div>
+    <md-progress-linear md-mode="indeterminate" ng-show="loading"></md-progress-linear>
+  </md-content>
+  <script src="index.js"></script>
+</body>
+</html>
