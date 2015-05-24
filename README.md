@@ -15,3 +15,6 @@ eg.
 <img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/screencap-vid.gif" width=260>
 
 ## [License] (https://raw.githubusercontent.com/prt2121/Snapper/master/LICENSE)
+
+## Download
+[Snapper-v0.0.1-mac.zip](https://drive.google.com/file/d/0B55jSaVlW3gmd3lRME9BQzVLWEk/view?usp=sharing)
