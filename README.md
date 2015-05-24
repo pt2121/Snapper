@@ -17,4 +17,4 @@ eg.
 ## [License] (https://raw.githubusercontent.com/prt2121/Snapper/master/LICENSE)
 
 ## Download
-[Snapper-v0.0.1-mac.zip](https://drive.google.com/file/d/0B55jSaVlW3gmd3lRME9BQzVLWEk/view?usp=sharing)
+[Snapper-v0.0.1-mac.zip](https://drive.google.com/file/d/0B55jSaVlW3gmd0dPOUZ2akNGOFE/view?usp=sharing)
