@@ -14,6 +14,9 @@ eg.
 ## Take screenshots
 <img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/screencap-vid.gif" width=260>
 
+## Record screen
+<img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/screenrecord-vid.gif" width=480>
+
 ## [License] (https://raw.githubusercontent.com/prt2121/Snapper/master/LICENSE)
 
 ## Download
