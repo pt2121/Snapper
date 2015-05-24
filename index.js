@@ -8,6 +8,9 @@ var fs = require('fs');
 var StreamPng = require('StreamPng');
 var client = adb.createClient();
 var moment = require('moment');
+var remote = require('remote');
+
+var app = remote.getGlobal("app");
 
 angular.module('snapperApp', ['ngMaterial', 'ngAnimate', 'ngAria'])
 .config(function($mdThemingProvider) {
@@ -157,7 +160,7 @@ function stopAndPull(serial, cb) {
 }
 
 function screencap(serial, cb) {
-  mkdirIfNotExist(__dirname + '/snapperFiles/', 0744, function(err) {
+  mkdirIfNotExist(app.getPath('userDesktop') + '/snapperFiles/', 0744, function(err) {
     if(err) {
       console.log("Can't create a directory.");
       cb("Can't create a directory.");
@@ -165,7 +168,7 @@ function screencap(serial, cb) {
       var fileName = moment().format('[screencapture-]MMDDYY-hhmmss[.png]');
       client.screencap(serial)
       .then(function(pngStream) {
-        var outfile = fs.createWriteStream(__dirname + '/snapperFiles/' + fileName);
+        var outfile = fs.createWriteStream(app.getPath('userDesktop') + '/snapperFiles/' + fileName);
         var png = StreamPng(pngStream);
         png.out().pipe(outfile);
       })
@@ -187,7 +190,7 @@ function pull(serial, path, cb) {
   .get(0)
   .then(function(device) {
     if(typeof device != 'undefined') {
-      mkdirIfNotExist(__dirname + '/snapperFiles/', 0744, function(err) {
+      mkdirIfNotExist(app.getPath('userDesktop') + '/snapperFiles/', 0744, function(err) {
         if (err) {
           console.log("Can't create a directory.");
         } else {
@@ -195,7 +198,7 @@ function pull(serial, path, cb) {
           client.pull(serial, path)
           .then(function(transfer) {
             return new Promise(function(resolve, reject) {
-              var fn = __dirname + '/snapperFiles/' + fileName;
+              var fn = app.getPath('userDesktop') + '/snapperFiles/' + fileName;
               transfer.on('progress', function(stats) {
                 console.log(stats.bytesTransferred + ' bytes so far')
               })
