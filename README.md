@@ -18,8 +18,8 @@ e.g.
 <img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/screenrecord-vid.gif" width=480>
 
 ## Download
-[Snapper-v0.0.1-mac.zip](https://drive.google.com/file/d/0B55jSaVlW3gmd0dPOUZ2akNGOFE/view?usp=sharing)
-[As of now, Windows and Linux prebuilds are not available yet but you can build them from source](https://github.com/atom/electron/blob/master/docs/tutorial/application-distribution.md)
+* [Snapper-v0.0.1-mac.zip](https://drive.google.com/file/d/0B55jSaVlW3gmd0dPOUZ2akNGOFE/view?usp=sharing)
+* [As of now, Windows and Linux prebuilds are not available yet but you can build them from source](https://github.com/atom/electron/blob/master/docs/tutorial/application-distribution.md)
 
 ## Requirements
 The target host (where the devices are connected) must still have ADB installed and either already running (e.g. via adb start-server) or available in $PATH.
