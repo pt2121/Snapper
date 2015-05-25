@@ -9,7 +9,7 @@ Snapper lets you take screenshots and record the screen of Android devices.
 
 <img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/img3.png" width=200>
 
-eg.
+e.g.
 
 ## Take screenshots
 <img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/screencap-vid.gif" width=260>
@@ -17,8 +17,11 @@ eg.
 ## Record screen
 <img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/screenrecord-vid.gif" width=480>
 
-## [License] (https://raw.githubusercontent.com/prt2121/Snapper/master/LICENSE)
-
 ## Download
 [Snapper-v0.0.1-mac.zip](https://drive.google.com/file/d/0B55jSaVlW3gmd0dPOUZ2akNGOFE/view?usp=sharing)
 [As of now, Windows and Linux prebuilds are not available yet but you can build them from source](https://github.com/atom/electron/blob/master/docs/tutorial/application-distribution.md)
+
+## Requirements
+The target host (where the devices are connected) must still have ADB installed and either already running (e.g. via adb start-server) or available in $PATH.
+
+## [License] (https://raw.githubusercontent.com/prt2121/Snapper/master/LICENSE)
