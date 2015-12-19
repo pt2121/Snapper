@@ -18,7 +18,7 @@ e.g.
 <img src="https://raw.githubusercontent.com/prt2121/Snapper/master/files/screenrecord-vid.gif" width=480>
 
 ## Download
-* [Snapper-v0.0.1-mac.zip](https://drive.google.com/file/d/0B55jSaVlW3gmd0dPOUZ2akNGOFE/view?usp=sharing)
+* [Snapper-v0.0.1-mac.zip](https://drive.google.com/folderview?id=0B55jSaVlW3gmSndkNUFJRzJPOWs&usp=sharing)
 * [As of now, Windows and Linux prebuilts are not available yet but you can build them from source](https://github.com/atom/electron/blob/master/docs/tutorial/application-distribution.md)
 
 ## Requirements
