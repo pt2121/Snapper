@@ -38,3 +38,4 @@ debug.log
 /atom-shell/
 /static/components/
 snapperFiles/
+dist/
