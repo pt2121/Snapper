@@ -1,17 +1,19 @@
 .mainContent {
   height: 200px;
+  -webkit-app-region: drag;
 }
-
 .rowSmall {
   height: 50px;
 }
-
 .rowTiny {
   height: 42px;
 }
-
+.md-primary {
+  -webkit-app-region: no-drag;
+}
 .switchdSmall {
-  margin:0px 0px 0px 0px;
+  -webkit-app-region: no-drag;
+  margin: 0 0 0 0;
   height: 35px;
   width: 40px;
 }
