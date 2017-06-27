@@ -24,4 +24,4 @@ e.g.
 ## Requirements
 The target host (where the devices are connected) must still have ADB installed and either already running (e.g. via adb start-server) or available in $PATH.
 
-## [License] (https://raw.githubusercontent.com/prt2121/Snapper/master/LICENSE)
+## [License](https://raw.githubusercontent.com/prt2121/Snapper/master/LICENSE)
